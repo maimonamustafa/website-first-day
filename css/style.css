@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap")
+*{ margin:0;
+padding:0; 
+}
+
+body{ 
+   font-family: 'Kanit', sans-serif;
+}
+img{max-width:100%;border: purple;border-style: dashed;border-width: 3px;}
+
+header{
+
+}
+.announcement{
+
+background-color: #e127d8;
+
+padding: 08px;
+
+text-align: center;
+}
+.announcement a {
+
+color: #fff;
+
+font-size: 15px;
+
+letter-spacing: 1px;
+
+text-decoration: none;
+}
+
+nav{
+
+display: flex;
+
+flex-wrap: wrap;
+
+padding: 10px 5%;
+align-items: center
+}
+.logo{flex-basis: 15%;}
+.logo a{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+    font-size: 35PX;
+    color: #e127d8;
+    font-weight: 400;
+}
+.menu{
+    flex-basis: 50%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li a{
+       color: #e127d8;
+       font-size: 15px;
+       padding: 12px 18px;
+       display: inline-block;
+       text-decoration: none;
+       transition-duration: 0.4s;
+       border-radius: 10px;
+       
+}
+.menu ul li a:hover{
+    background-color:red ;
+    color:white ;
+    opacity: 0.3;
+       box-shadow: 0 0 0 1px black;
+}
+
+
+.btn{
+    background: #ece0a0;
+    border: dotted;
+    padding: 15px;
+    font-size: 10px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    color: #9c0db3f7;
+}
+
+.btn:hover {
+    background-color: #e17ae4;
+    border-color: black;
+    color: #935090;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    box-shadow: 0 10px 20px purple;
+}
+.gallery{
+    margin: 5px;
+    float: left;
+    width: 285px;
+    box-shadow: 0 10px 10px purple;
+}
+.gallery img{
+    width: 100%;
+    cursor: pointer;
+    background: beige;
+}
+
+.desc{
+    padding: 10px;
+    text-align: center;
+    color: #5a8932;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px;
+    border-style: dashed;
+    border-width: medium;
+    border-color: purple;
+    border-radius: 4px;
+    font-family: revert;
+    cursor: pointer;
+    background: #fff77e;
+}
+.gallery img:hover{
+    
+background: #16e2e2;
+    
+transition-duration: 0.3s;
+opacity: 0.3;
+}
+.desc:hover{
+    background: #d1c9e2;
+    transition-duration: 0.3s;
+}
